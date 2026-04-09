@@ -2,14 +2,14 @@
 window.PORTFOLIO_DATA = {
   portfolio: [
     {
-      title: "Music Player Application",
+      title: "Smart System Validator",
       image: "img/library/smartsystem.jpeg",
       contentTitle: "",
-      category: "mobile",
+      category: "web",
       wideWrapper: true,
     },
     {
-      title: "Music Player Application",
+      title: "Nexi Chatbot Application",
       image: "img/library/nexi.png",
       contentTitle: "",
       category: "web",
@@ -19,35 +19,35 @@ window.PORTFOLIO_DATA = {
       title: "Music Player Application",
       image: "img/library/neximb.png",
       contentTitle: "",
-      category: "web",
+      category: "mobile",
       wideWrapper: true,
     },
     {
-      title: "Music Player Application",
+      title: "CHMI",
       image: "img/library/chmi.png",
       contentTitle: "",
       category: "web",
       wideWrapper: true,
     },
     {
-      title: "Music Player Application",
+      title: "Design Specification Generator ",
       image: "img/library/fds.png",
       contentTitle: "",
-      category: "mobile",
+      category: "web",
       wideWrapper: true,
     },
     {
-      title: "Music Player Application",
+      title: "Docuument Style Validator",
       image: "img/library/qaqc.png",
       contentTitle: "",
-      category: "mobile",
+      category: "web",
       wideWrapper: true,
     },
     {
-      title: "Music Player Application",
+      title: "GES Innovations",
       image: "img/library/ges.png",
       contentTitle: "",
-      category: "mobile",
+      category: "web",
       wideWrapper: true,
     },
     {
@@ -113,13 +113,13 @@ window.PORTFOLIO_DATA = {
       category: "web",
       wideWrapper: true,
     },
-    {
-      title: "Location Catalog",
-      image: "img/location1.png",
-      contentTitle: "Location Catalog",
-      category: "web",
-      wideWrapper: true,
-    },
+    // {
+    //   title: "Location Catalog",
+    //   image: "img/location1.png",
+    //   contentTitle: "Location Catalog",
+    //   category: "web",
+    //   wideWrapper: true,
+    // },
   ],
   projects: [
     {
@@ -352,10 +352,10 @@ window.PORTFOLIO_DATA = {
     },
     {
       name: "JavaScript",
-      percentage: 80,
+      percentage: 85,
     },
     {
-      name: "Ionic",
+      name: "Ionic Framework ( Hybrid Mobile Application )",
       percentage: 90,
     },
     {
@@ -364,11 +364,11 @@ window.PORTFOLIO_DATA = {
     },
     {
       name: "Angular",
-      percentage: 85,
+      percentage: 90,
     },
     {
       name: "UI/UX Design",
-      percentage: 65,
+      percentage: 80,
     },
     {
       name: "TypeScript",
@@ -381,6 +381,26 @@ window.PORTFOLIO_DATA = {
     {
       name: "Bootstrap",
       percentage: 90,
+    },
+    {
+      name: "PrimeNG",
+      percentage: 90,
+    },
+    {
+      name: "Power BI",
+      percentage: 70,
+    },
+    {
+      name: "NodeJS",
+      percentage: 55,
+    },
+    {
+      name: ".Net",
+      percentage: 50,
+    },
+    {
+      name: "MongoDB",
+      percentage: 65,
     },
     {
       name: "Work Bench Design Studio",
