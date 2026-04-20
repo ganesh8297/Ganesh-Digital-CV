@@ -2,10 +2,24 @@
 window.PORTFOLIO_DATA = {
   portfolio: [
     {
+      title: "Hotel Booking Application",
+      image: "img/library/hotel.png",
+      contentTitle: "",
+      category: "mobile",
+      wideWrapper: true,
+    },
+    {
       title: "Smart System Validator",
       image: "img/library/smartsystem.jpeg",
       contentTitle: "",
       category: "web",
+      wideWrapper: true,
+    },
+    {
+      title: "HHT Application",
+      image: "img/library/hht.png",
+      contentTitle: "",
+      category: "mobile",
       wideWrapper: true,
     },
     {
@@ -16,7 +30,7 @@ window.PORTFOLIO_DATA = {
       wideWrapper: true,
     },
     {
-      title: "Music Player Application",
+      title: "Nexi Chatbot Mobile Application",
       image: "img/library/neximb.png",
       contentTitle: "",
       category: "mobile",
@@ -37,10 +51,24 @@ window.PORTFOLIO_DATA = {
       wideWrapper: true,
     },
     {
+      title: "Library Management Application",
+      image: "img/library/kite.png",
+      contentTitle: "",
+      category: "mobile",
+      wideWrapper: true,
+    },
+    {
       title: "Docuument Style Validator",
       image: "img/library/qaqc.png",
       contentTitle: "",
       category: "web",
+      wideWrapper: true,
+    },
+    {
+      title: "Music Player Application",
+      image: "img/library/mymusic.png",
+      contentTitle: "",
+      category: "mobile",
       wideWrapper: true,
     },
     {
@@ -51,65 +79,45 @@ window.PORTFOLIO_DATA = {
       wideWrapper: true,
     },
     {
-      title: "Music Player Application",
-      image: "img/library/mymusic.png",
-      contentTitle: "Music Player Application",
-      category: "mobile",
-      wideWrapper: true,
-    },
-    {
-      title: "Hotel Booking Application",
-      image: "img/hotel.png",
-      contentTitle: "Hotel Booking Application",
-      category: "mobile",
-      wideWrapper: true,
-    },
-    {
       title: "Smart Shopping Application",
-      image: "img/smartshopping1.png",
-      contentTitle: "Smart Shopping Application",
+      image: "img/library/smartshopping.png",
+      contentTitle: "",
       category: "mobile",
       wideWrapper: true,
     },
+    {
+      title: "Process Map",
+      image: "img/library/processmap.png",
+      contentTitle: "",
+      category: "web",
+      wideWrapper: true,
+    },
+
     {
       title: "Mobile Store Application",
-      image: "img/mobile1.png",
-      contentTitle: "Mobile Store Application",
+      image: "img/library/mobileshop.png",
+      contentTitle: "",
       category: "mobile",
       wideWrapper: true,
     },
     {
       title: "Police Application",
-      image: "img/police1.png",
-      contentTitle: "Police Application",
-      category: "mobile",
-      wideWrapper: true,
-    },
-    {
-      title: "Library Management Application",
-      image: "img/library1.png",
-      contentTitle: "Library Management Application",
+      image: "img/library/police.png",
+      contentTitle: "",
       category: "mobile",
       wideWrapper: true,
     },
     {
       title: "24Hrs Seller Application",
-      image: "img/seller1.png",
-      contentTitle: "24Hrs Seller Application",
-      category: "mobile",
-      wideWrapper: true,
-    },
-    {
-      title: "24Hrs User Application",
-      image: "img/user1.png",
-      contentTitle: "24Hrs User Application",
+      image: "img/library/24hrs.png",
+      contentTitle: "",
       category: "mobile",
       wideWrapper: true,
     },
     {
       title: "Cake Shop",
-      image: "img/cake.png",
-      contentTitle: "Cake Shop",
+      image: "img/library/cakeshop.png",
+      contentTitle: "",
       category: "web",
       wideWrapper: true,
     },
@@ -124,18 +132,74 @@ window.PORTFOLIO_DATA = {
   projects: [
     {
       sectionHeading: "Live Projects",
-      clientName: "Smart System Validator | INDIA",
+      clientName: "Ges Innovations",
       clientRole: "Angular project",
       avatar:
         "https://yt3.googleusercontent.com/ytc/AIdro_kAVmySGuy_bku55Kqg2TbmIi28D9tE044cmxo331BM5DC_=s900-c-k-c0x00ffffff-no-rj",
-      description: "Developed Internal Dashboard for engineering team",
+      description: "Developed Application for engineering team",
       team: "10+ members",
-      role: "User interface of all module",
+      role: "Led UI development across all modules, implemented seamless API integration and backend API development, and designed user-centric interfaces using Figma.",
+      technology: "Angular 18, .Net",
+      links: [],
+    },
+    {
+      clientName: "Process Map",
+      clientRole: "Angular project",
+      avatar:
+        "https://yt3.googleusercontent.com/ytc/AIdro_kAVmySGuy_bku55Kqg2TbmIi28D9tE044cmxo331BM5DC_=s900-c-k-c0x00ffffff-no-rj",
+      description: "Developed Application for engineering team",
+      team: "10+ members",
+      role: "Led UI development across all modules, implemented seamless API integration and backend API development, and designed user-centric interfaces using Figma.",
+      technology: "Angular 18, .Net",
+      links: [],
+    },
+    {
+      clientName: "Smart System Validator",
+      clientRole: "Angular project",
+      avatar:
+        "https://yt3.googleusercontent.com/ytc/AIdro_kAVmySGuy_bku55Kqg2TbmIi28D9tE044cmxo331BM5DC_=s900-c-k-c0x00ffffff-no-rj",
+      description: "Developed Dashboard for engineering team",
+      team: "10+ members",
+      role: "Led UI development across all modules, implemented seamless API integration and designed user-centric interfaces using Figma.",
       technology: "Angular 16, .Net",
       links: [],
     },
     {
-      clientName: "HHT | INDIA",
+      clientName: "Design Specification Generator",
+      clientRole: "Angular project",
+      avatar:
+        "https://yt3.googleusercontent.com/ytc/AIdro_kAVmySGuy_bku55Kqg2TbmIi28D9tE044cmxo331BM5DC_=s900-c-k-c0x00ffffff-no-rj",
+      description: "Developed Tool for engineering team",
+      team: "10+ members",
+      role: "Led UI development across all modules, implemented seamless API integration and designed user-centric interfaces using Figma.",
+      technology: "Angular 17, .Net",
+      links: [],
+    },
+    {
+      clientName: "Document Style Validator",
+      clientRole: "Angular project",
+      avatar:
+        "https://yt3.googleusercontent.com/ytc/AIdro_kAVmySGuy_bku55Kqg2TbmIi28D9tE044cmxo331BM5DC_=s900-c-k-c0x00ffffff-no-rj",
+      description: "Developed Tool for engineering team",
+      team: "10+ members",
+      role: "Led UI development across all modules, implemented seamless API integration and designed user-centric interfaces using Figma.",
+      technology: "Angular 17, .Net",
+      links: [],
+    },
+    {
+      clientName: "Nexi Engineering Copilot",
+      clientRole: "Angular project",
+      avatar:
+        "https://yt3.googleusercontent.com/ytc/AIdro_kAVmySGuy_bku55Kqg2TbmIi28D9tE044cmxo331BM5DC_=s900-c-k-c0x00ffffff-no-rj",
+      description: "Developed Chatbot for engineering team",
+      team: "10+ members",
+      role: "Led UI development across all modules, implemented seamless API integration and designed user-centric interfaces using Figma.",
+      technology: "Angular 19, .Net",
+      links: [],
+    },
+
+    {
+      clientName: "HHT | India",
       clientRole: "Angular Ionic project",
       avatar:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb63OwslJl4wcXHRd-HbBmBTYkTPcVM8n4l2GKqKysyT17AQ-lJzeJkvxrxtj4rYBZRFFNyuNdwvXBL3NokyHBrw",
@@ -405,6 +469,10 @@ window.PORTFOLIO_DATA = {
     {
       name: "Work Bench Design Studio",
       percentage: 75,
+    },
+    {
+      name: "Desktop Application",
+      percentage: 65,
     },
   ],
 };
